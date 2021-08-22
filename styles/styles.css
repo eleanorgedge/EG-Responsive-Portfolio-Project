@@ -27,6 +27,7 @@ h1 {
 }
 
 .projects {
+  color: var(--secondary-color);
   text-align: right;
   padding: 10px;
 }
@@ -40,6 +41,7 @@ h1 {
 .responsive-portfolio,
 .weather-app,
 .arctic-monkeys {
+  color: var(--secondary-color);
   background-color: var(--primary-color);
   padding: 10px;
 }
@@ -58,6 +60,10 @@ h1 {
   color: white;
   background: var(--secondary-color);
   text-align: left;
+}
+
+.project-link:hover {
+  background-color: var(--primary-color);
 }
 
 p {
