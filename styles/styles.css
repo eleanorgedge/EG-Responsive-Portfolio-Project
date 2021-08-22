@@ -17,7 +17,7 @@ h2 {
   text-align: center;
 }
 
-.about-me {
+.about-me-title {
   text-align: left;
   background-color: #323c6b;
   padding: 10px;
@@ -57,6 +57,7 @@ h2 {
   background: #323c6b;
   text-align: left;
 }
+
 p {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -77,6 +78,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .about-me-title,
   .about-me,
   .projects,
   .copyright,
