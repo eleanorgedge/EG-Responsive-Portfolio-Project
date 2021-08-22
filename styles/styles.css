@@ -7,6 +7,7 @@ body {
 h1 {
   color: #323c6b;
   padding: 30px 20px 10px 20px;
+  font-size: 50px;
 }
 
 .introduction {
@@ -84,6 +85,9 @@ footer {
   }
   p {
     font-size: 15px;
+  }
+  h1 {
+    font-size: 40px;
   }
 }
 
