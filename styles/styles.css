@@ -4,20 +4,15 @@ body {
 
 h1 {
   color: #b6d2dd;
-  padding: 20px 20px 10px 20px;
-}
-
-h2 {
-  color: #b6d2dd;
-  padding: 20px;
+  padding: 30px 20px 10px 20px;
 }
 
 .introduction {
   text-align: center;
 }
 
-.about-me-title {
-  text-align: left;
+.about-me {
+  text-align: center;
   background-color: #323c6b;
   padding: 10px;
   color: white;
