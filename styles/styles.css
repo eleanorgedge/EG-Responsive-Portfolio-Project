@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: #b6d2dd;
+  color: #323c6b;
   padding: 30px 20px 10px 20px;
 }
 
@@ -16,7 +16,7 @@ h1 {
 /*HOME PAGE*/
 .about-me {
   text-align: center;
-  background-color: #323c6b;
+  background-color: #b6d2dd;
   padding: 10px;
   color: white;
 }
