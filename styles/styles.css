@@ -1,3 +1,5 @@
+/*ALL PAGES*/
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -11,6 +13,7 @@ h1 {
   text-align: center;
 }
 
+/*HOME PAGE*/
 .about-me {
   text-align: center;
   background-color: #323c6b;
@@ -89,4 +92,10 @@ footer {
   .weather-app-portrait {
     max-width: 300px;
   }
+}
+
+/*ABOUT PAGE*/
+.technology {
+  color: #323c6b;
+  font-size: 30px;
 }
