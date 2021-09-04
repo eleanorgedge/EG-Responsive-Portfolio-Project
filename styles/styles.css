@@ -107,7 +107,7 @@ footer {
 @media (min-width: 768px) {
   .weather-app-landscape,
   .weather-app-portrait {
-    max-width: 300px;
+    max-width: 400px;
   }
 }
 
