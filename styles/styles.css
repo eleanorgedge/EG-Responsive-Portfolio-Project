@@ -29,7 +29,7 @@ h1 {
 .projects,
 .experience {
   color: var(--secondary-color);
-  text-align: right;
+  text-align: center;
   padding: 10px;
 }
 
@@ -48,7 +48,8 @@ h1 {
 }
 
 .weather-app-landscape,
-.weather-app-portrait {
+.weather-app-portrait,
+.arctic-monkeys-page {
   max-width: display;
 }
 
@@ -95,26 +96,39 @@ footer {
   .social-icons {
     text-align: center;
   }
-  p,
-  .technology {
+  p {
     font-size: 15px;
   }
+  .skill-icon,
+  .programme {
+    font-size: 15px;
+  }
+
   h1 {
     font-size: 40px;
   }
 }
 
 @media (min-width: 768px) {
-  .weather-app-landscape,
   .weather-app-portrait {
+    max-width: 300px;
+  }
+  .weather-app-landscape,
+  .arctic-monkeys-page {
     max-width: 400px;
   }
 }
 
 /*ABOUT PAGE*/
-.technology {
+.skill-icon {
   color: var(--secondary-color);
   font-size: 30px;
 }
 
-/*PROJECTS PAGE*/
+.skill-icon:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 40px;
+}
+
+/*PROJECTS PAGE*/ ;
