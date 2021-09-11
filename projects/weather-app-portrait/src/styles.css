@@ -1,0 +1,104 @@
+.container {
+  border: 3px solid #b6d2dd;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.weather-app-wrapper {
+  max-width: 400px;
+  margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.form-control {
+  font-size: 12px;
+}
+
+.fa-search {
+  color: #323c6b;
+}
+.fa-location-arrow {
+  color: #323c6b;
+}
+
+h1 {
+  font-size: 30px;
+  color: #323c6b;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 12px;
+  color: #323c6b;
+}
+
+.temperature {
+  font-size: 30px;
+  color: #fed19a;
+  font-weight: bold;
+}
+
+.unit {
+  color: #323c6b;
+  font-weight: 700;
+  font-size: 12px;
+  top: -30px;
+  text-decoration: none;
+}
+
+.unit .active {
+  color: #323c6b;
+  cursor: default;
+  text-decoration: none;
+}
+
+.unit .active:hover {
+  text-decoration: none;
+  color: #323c6b;
+}
+
+.weather-list {
+  text-align: right;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #323c6b;
+}
+
+.forecast-day {
+  margin: auto;
+}
+
+.forecast-temperature {
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  font-size: 12px;
+  color: 323c6b;
+  padding: 8px;
+  background-color: #fed19a;
+}
+.icon-main {
+  align-content: flex-start;
+  max-width: 70px;
+}
+.icon-forecast {
+  max-width: 30px;
+}
+.signature {
+  text-decoration: none;
+  color: #323c6b;
+}
+.signature .active {
+  text-decoration: none;
+  color: #323c6b;
+}
+.signature .active:hover {
+  text-decoration: none;
+  color: #323c6b;
+}
