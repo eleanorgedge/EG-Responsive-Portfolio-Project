@@ -121,8 +121,9 @@ footer {
     text-align: center;
   }
   p,
-  .technologies {
-    font-size: 15px;
+  .technologies,
+  .copyright {
+    font-size: 14px;
   }
   h1 {
     font-size: 30px;
