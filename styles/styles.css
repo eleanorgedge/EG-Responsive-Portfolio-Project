@@ -59,7 +59,7 @@ h1 {
   max-width: display;
 }
 
-.project-link {
+.homepage-links {
   border-radius: 4px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -67,10 +67,26 @@ h1 {
   text-decoration: none;
   color: white;
   background: var(--secondary-color);
-  text-align: left;
+  width: 130px;
 }
 
-.project-link:hover {
+.homepage-links:hover {
+  background-color: var(--primary-color);
+}
+
+.project-links {
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: var(--secondary-color);
+  text-align: center;
+  width: 130px;
+}
+
+.project-links:hover {
   background-color: var(--primary-color);
 }
 
