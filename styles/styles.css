@@ -19,7 +19,7 @@ h1 {
 }
 
 .logo {
-  max-width: 70px;
+  max-width: 60px;
 }
 
 p {
@@ -37,35 +37,37 @@ footer {
   font-size: 20px;
 }
 
-.social-icons {
+.social-icon {
   text-align: right;
   font-size: 30px;
   color: var(--secondary-color);
 }
 
-.social-icons:hover {
+.social-icon:hover {
   color: var(--third-color);
 }
 
-/*ABOUT ME PAGE*/
+/*HOMEPAGE*/
+.blurb {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+/*ABOUT ME*/
+.about-me-title {
+  background-color: var(--primary-color);
+  padding: 5px;
+  text-align: centre;
+}
+
 .about-me {
   text-align: center;
   background-color: var(--primary-color);
   padding: 10px;
   color: white;
-}
-
-.experience,
-.technologies {
-  color: var(--secondary-color);
-  text-align: center;
-  padding: 10px;
-}
-
-.about-me-title {
-  background-color: var(--primary-color);
-  padding: 5px;
-  text-align: centre;
 }
 
 .experience-title,
@@ -74,6 +76,13 @@ footer {
   background-color: var(--primary-color);
   padding: 5px;
   text-align: centre;
+}
+
+.experience,
+.technologies {
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
 }
 
 .skill-icon {
@@ -92,6 +101,12 @@ footer {
   background-color: var(--primary-color);
   padding: 5px;
   text-align: centre;
+}
+
+.project {
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
 }
 
 .project-image {
@@ -114,16 +129,39 @@ footer {
   background-color: var(--primary-color);
 }
 
+/*CONTACT ME PAGE*/
+.contact-me-title {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 5px;
+  text-align: centre;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.contact-icon {
+  color: var(--secondary-color);
+  font-size: 45px;
+  padding: 0px 10px 10px 0px;
+  text-align: center;
+}
+
+.contact-icon:hover {
+  color: var(--third-color);
+}
+
 /*RESPONSIVE PAGES*/
 @media (max-width: 768px) {
   .copyright,
-  .social-icons {
+  .social-icon {
     text-align: center;
   }
   p,
   .technologies,
   .copyright {
-    font-size: 14px;
+    font-size: 13px;
   }
   h1 {
     font-size: 30px;
