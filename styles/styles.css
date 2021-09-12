@@ -2,6 +2,7 @@
 :root {
   --primary-color: #b6d2dd;
   --secondary-color: #323c6b;
+  --third-color: #fed19a;
 }
 
 body {
@@ -16,6 +17,10 @@ h1 {
 
 .introduction {
   text-align: center;
+}
+
+.logo {
+  max-width: 70px;
 }
 
 /*HOME PAGE*/
@@ -38,7 +43,8 @@ h1 {
   font-size: 30px;
   margin-top: 10px;
 }
-
+.experience-title,
+.technologies-title,
 .responsive-portfolio,
 .weather-app,
 .arctic-monkeys {
@@ -126,7 +132,7 @@ footer {
 }
 
 .skill-icon:hover {
-  color: var(--primary-color);
+  color: var(--third-color);
   cursor: pointer;
   font-size: 40px;
 }
