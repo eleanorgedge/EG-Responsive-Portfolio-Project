@@ -12,7 +12,6 @@ body {
 h1 {
   color: var(--secondary-color);
   padding: 30px 20px 10px 20px;
-  font-size: 50px;
 }
 
 .introduction {
@@ -21,75 +20,6 @@ h1 {
 
 .logo {
   max-width: 70px;
-}
-
-/*HOME PAGE*/
-.about-me {
-  text-align: center;
-  background-color: var(--primary-color);
-  padding: 10px;
-  color: white;
-}
-
-.projects,
-.experience,
-.technologies {
-  color: var(--secondary-color);
-  text-align: center;
-  padding: 10px;
-}
-
-.skills {
-  color: var(--secondary-color);
-  font-size: 30px;
-  margin-top: 10px;
-}
-.experience-title,
-.technologies-title,
-.responsive-portfolio,
-.weather-app,
-.arctic-monkeys {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-  padding: 10px;
-  text-align: centre;
-}
-
-.weather-app-landscape,
-.weather-app-portrait,
-.arctic-monkeys-page {
-  max-width: display;
-}
-
-.homepage-links {
-  border-radius: 4px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  background: var(--secondary-color);
-  width: 130px;
-}
-
-.homepage-links:hover {
-  background-color: var(--primary-color);
-}
-
-.project-links {
-  border-radius: 4px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  background: var(--secondary-color);
-  text-align: center;
-  width: 130px;
-}
-
-.project-links:hover {
-  background-color: var(--primary-color);
 }
 
 p {
@@ -115,50 +45,89 @@ footer {
 
 .social-icons:hover {
   color: var(--third-color);
-  cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .about-me-title,
-  .about-me,
-  .projects,
-  .experience,
-  .copyright,
-  .social-icons {
-    text-align: center;
-  }
-  p {
-    font-size: 12px;
-  }
-  .skill-icon,
-  .programme {
-    font-size: 12px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
+/*ABOUT ME PAGE*/
+.about-me {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: white;
 }
 
-@media (min-width: 768px) {
-  .weather-app-portrait {
-    max-width: 300px;
-  }
-  .weather-app-landscape,
-  .arctic-monkeys-page {
-    max-width: 400px;
-  }
+.experience,
+.technologies {
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
 }
 
-/*ABOUT PAGE*/
+.about-me-title {
+  background-color: var(--primary-color);
+  padding: 5px;
+  text-align: centre;
+}
+
+.experience-title,
+.technologies-title {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 5px;
+  text-align: centre;
+}
+
 .skill-icon {
   color: var(--secondary-color);
   font-size: 30px;
+  margin-top: 10px;
 }
 
 .skill-icon:hover {
   color: var(--third-color);
-  cursor: pointer;
 }
 
-/*PROJECTS PAGE*/ ;
+/*PROJECTS PAGE*/
+.project-title {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 5px;
+  text-align: centre;
+}
+
+.project-image {
+  max-width: display;
+}
+
+.project-links {
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: var(--secondary-color);
+  text-align: center;
+  width: 130px;
+}
+
+.project-links:hover {
+  background-color: var(--primary-color);
+}
+
+/*RESPONSIVE PAGES*/
+@media (max-width: 768px) {
+  .copyright,
+  .social-icons {
+    text-align: center;
+  }
+  p,
+  .technologies {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    max-width: 300px;
+  }
+}
