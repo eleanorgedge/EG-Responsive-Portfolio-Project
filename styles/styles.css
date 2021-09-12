@@ -32,7 +32,8 @@ h1 {
 }
 
 .projects,
-.experience {
+.experience,
+.technologies {
   color: var(--secondary-color);
   text-align: center;
   padding: 10px;
@@ -51,6 +52,7 @@ h1 {
   color: var(--secondary-color);
   background-color: var(--primary-color);
   padding: 10px;
+  text-align: centre;
 }
 
 .weather-app-landscape,
