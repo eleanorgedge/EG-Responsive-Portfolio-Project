@@ -155,7 +155,8 @@ footer {
 /*RESPONSIVE PAGES*/
 @media (max-width: 768px) {
   .copyright,
-  .social-icon {
+  .social-icon,
+  .contact-icon {
     text-align: center;
   }
   p,
